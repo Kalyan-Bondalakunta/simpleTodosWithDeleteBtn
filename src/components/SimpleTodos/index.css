@@ -1,0 +1,38 @@
+.bg-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 80%;
+  }
+}
+
+.heading {
+  color: #ff8542;
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+
+.lists-container {
+  width: 90%;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}

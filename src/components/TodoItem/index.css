@@ -1,0 +1,23 @@
+.list-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-heading {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.delete-btn {
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff0b37;
+  color: #ff0b37;
+  border-radius: 5px;
+}
